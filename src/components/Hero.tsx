@@ -92,12 +92,14 @@ const Hero = () => {
                 </div>
                 <div className="w-full overflow-hidden rounded-md">
                   <iframe
-                    src="https://www.youtube.com/watch?v=4ysD0rd632U"
+                    src="https://www.youtube.com/embed/4ysD0rd632U"
                     title="Trem da alegria"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
                     allowFullScreen
-                    className="w-full aspect-video rounded-md"
-                    style={{ minHeight: "240px", width: "100%" }}
+                    sandbox="allow-same-origin allow-scripts allow-popups allow-presentation"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    className="w-full rounded-md"
+                    style={{ height: "240px", width: "100%" }}
                   ></iframe>
                 </div>
               </div>
@@ -140,6 +142,8 @@ const Hero = () => {
                     title="Trem da alegria"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
                     allowFullScreen
+                    sandbox="allow-same-origin allow-scripts allow-popups allow-presentation"
+                    referrerPolicy="no-referrer-when-downgrade"
                     className="w-full aspect-video rounded-md"
                     style={{ minHeight: "320px", width: "100%" }}
                   ></iframe>

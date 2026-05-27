@@ -64,7 +64,7 @@ const RsvpForm = () => {
   
   const openWhatsApp = () => {
     const text = `Olá! Gostaria de confirmar minha presença na festa de aniversário do Davi e Helena.`;
-    window.open(`https://wa.me/5535991610077?text=${encodeURIComponent(text)}`, '_blank');
+    window.open(`https://wa.me/5535991059061?text=${encodeURIComponent(text)}`, '_blank');
   };
 
   return (
