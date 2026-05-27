@@ -199,12 +199,14 @@ const RsvpForm = () => {
           </div>
           
           <div className="md:order-1 animate-slide-up opacity-0" style={{ animationDelay: '0s' }}>
+            {/*
             <div className="glass-card rounded-lg p-6 shadow-lg flex items-center space-x-4 mb-6">
               <div className="bg-blaze-yellow/20 rounded-full p-3">
                 <Calendar className="h-6 w-6 text-blaze-yellow" />
               </div>
              
             </div>
+            */}
             
             <div className="glass-card rounded-lg p-6 shadow-lg">
               <h3 className="text-xl font-bold mb-4 text-blaze-dark">Também pode confirmar por WhatsApp</h3>
