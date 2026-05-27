@@ -104,6 +104,7 @@ const Hero = () => {
                 </div>
               </div>
               
+              {/*
               <div className="absolute top-4 -left-6 z-30 transform -rotate-3">
                 <img 
                   src="/images/davi-e-helena.jpeg"
@@ -119,6 +120,7 @@ const Hero = () => {
                   className="w-full h-full object-contain"
                 />
               </div>
+              */}
             </div>
           </div>
         </div>
